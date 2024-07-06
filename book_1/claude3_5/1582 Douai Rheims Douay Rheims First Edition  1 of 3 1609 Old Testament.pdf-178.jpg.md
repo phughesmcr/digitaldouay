@@ -1,0 +1,54 @@
+---
+path: "E:\Documents\drb\book_1\jpg\1582 Douai Rheims Douay Rheims First Edition  1 of 3 1609 Old Testament.pdf-178.jpg"
+input_tokens: 2409
+output_tokens: 984
+elapsed_time_s: 18.00
+approx_cost_usd: 0.022
+manual_edit: false
+---
+EXODVS.
+
+I wil geue thee thy hyre. The woman tooke, and nursed
+the child: and when he was growen, deliuered him to Pharaos daughter. <sup>10</sup> Whom she adopted into the place of a
+sonne, and called him Moyses[^1], saying: Because from the
+water I did take him. <sup>11</sup> In those dayes after that Moyses
+was growen, he went forth to his brethren: and he saw their
+affliction, and a man that was an Ægyptian striking one of
+the Hebrewes his brethren. <sup>12</sup> And when he had looked
+about hither & thither, and saw no man present, he stroke
+the Ægyptian, and hid him in the sand. <sup>13</sup> And going forth
+an other day, he saw two Hebrewes brawling: and he said
+to him that did the wrong: Why strikest thou thy neighbour?
+<sup>14</sup> Who answered: Who hath appointed thee prince & iudge
+ouer vs? Wilt thou kil me, as yesterday thou didest the Ægyptian? Moyses feared, and said: How is this thing come abroad? <sup>15</sup> And Pharao heard of this talke, and sought to
+kil Moyses: who fleeing from his sight, abode in the Land
+of Madian, and sate beside a wel. <sup>16</sup> And the priest of Madian had seuen daughters, which were come to draw water:
+and when the troughes were filled, they desired to water
+their fathers flockes. <sup>17</sup> The shepheards came vpon them,
+and droue them away: and Moyses arose, and defending the
+maides, watered their sheepe. <sup>18</sup> Who being returned to
+Raguel their father, he said to them: Why are you come
+sooner then you were woont? <sup>19</sup> They answered: A certaine
+man an Ægyptian deliuered vs from the hand of the shepheards: moreouer also he drew water with vs, and gaue the
+sheepe to drinke. <sup>20</sup> But he said: Where is he? why haue
+you let the man goe? cal him that he may eate bread.
+<sup>21</sup> Therefore Moyses sware that he would dwel with him.
+And he tooke Sephora his daughter to wife: <sup>22</sup> who bare
+him a sonne, whom he called Gersam, saying: I haue bene
+a stranger in a forren countrey. And she bare an other,
+whom he called Eliezer, saying: for the God of my father
+my helper hath deliuered me out of the hand of Pharao.
+<sup>23</sup> But after much time the King of Ægypt died: and the
+children of Israel groning, cried out because of the workes:
+and their crie ascended vnto God from the workes. <sup>24</sup> And
+he heard their groning, & remembred the couenant which
+he made with Abraham, Isaac, and Iacob. <sup>25</sup> And our Lord
+looked vpon the children of Israel and knew them.
+
+[^1]: Mosi, in the Ægyptian tongue signifieth water, and ises, saued. Ioseph. li. 2. Antiq. c. 5. Clemens Alexan. li. 1. Stromat.
+
+<aside>The guiltie perso reiected Moyses for lack of knowē authoritie, but God cōfirmed his cōmission. Act. 7. So the Iewes reiecded Christ, Iudge of the world.</aside>
+
+<aside>He feared to tempt God by flaying, but not the seueritie of the law. Heb. 11.</aside>
+
+<aside>Oppression of innocents crieth to heauen for reuenge.</aside>

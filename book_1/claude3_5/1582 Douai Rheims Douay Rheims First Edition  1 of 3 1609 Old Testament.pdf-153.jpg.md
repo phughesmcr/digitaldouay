@@ -1,0 +1,15 @@
+---
+path: "E:\Documents\drb\book_1\jpg\1582 Douai Rheims Douay Rheims First Edition  1 of 3 1609 Old Testament.pdf-153.jpg"
+input_tokens: 2409
+output_tokens: 817
+elapsed_time_s: 15.30
+approx_cost_usd: 0.019
+manual_edit: false
+---
+heare vs. Now once before we came downe to bye prouision: <sup>21</sup> which being bought, when we were come to the Inne, we opened our sackes, and found our money in the mouthes of the sackes: which we haue now brought againe <sup>22</sup> in the same weight. But we haue brought other money besides, to bye the things that are necessarie for vs: our <sup>23</sup> conscience is not priuie, who put it in our bagges. But he answered: Peace be with you, feare you not: your God, and the God of your father hath geuen you treasures in your sackes. for the money, which you gaue me, I haue for good. <sup>24</sup> And he brought forth Simeon vnto them. And being brought into the house, he fetched water, and they washed <sup>25</sup> their feete, and he gaue prouender to their asses. But they made readie the presentes, til Ioseph should come in at noone: for they had heard that they should eate bread there. <sup>26</sup> Therfore Ioseph came in to his house, and they offered him presentes holding them in their handes, and [^1] they adored prostrate to the ground. <sup>27</sup> But he curteously resaluting them, asked them saying: Is the old man your father in health, of whom you told me? Is he yet liuing? <sup>28</sup> Who answered: Thy seruant our father is in health, he is yet liuing. And bowing themselues, they adored him. <sup>29</sup> And Ioseph lifting vp his eyes, sawe Beniamin his brother of the same mother, and said: Is this your young brother, of whom you told me? And againe: God, saith he, be merciful vnto thee my sonne. <sup>30</sup> And he made hast because his hart was moued vpon his brother, and teares brake forth: and entring into his <sup>31</sup> chamber he wept. And when he had washed his face, comming forth againe, he refrained himselfe, and said: Set <sup>32</sup> bread on the table. Which being set downe, to Ioseph a part, and to his brethren apart, to the Ægyptians also that did eate with him apart (for it is vnlawful for the Ægyptians [^2] to eate with the Hebrewes, and they thinke such a feast prophane), <sup>33</sup> they sate before him, the first begotten according to his first-birth, and the youngest according to his <sup>34</sup> age. And they maruailed out of measure, taking the portions that they receiued of him: and the greater portion came to Beniamin, so that it exceeded [^3] by fiue partes. And they dranke and were inebriated with him.
+
+[^1]: <aside>They now adore him, whom they sold, lest they should adore him. S. Greg. ho. 22. in Ezech.</aside>
+
+[^2]: <aside>See Exodi. 8. v. 26.</aside>
+
+[^3]: <aside>Euerie one hauing fiue portions, Beniamin had double . Iosephus li. 2. Antiq.</aside>

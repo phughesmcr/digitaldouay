@@ -1,0 +1,23 @@
+---
+path: "E:\Documents\drb\book_1\jpg\1582 Douai Rheims Douay Rheims First Edition  1 of 3 1609 Old Testament.pdf-95.jpg"
+input_tokens: 2409
+output_tokens: 743
+elapsed_time_s: 13.53
+approx_cost_usd: 0.018
+manual_edit: false
+---
+GENESIS.
+
+---
+
+CHAP. XXII.
+
+*The faith and obedience of Abraham is proued in his redines to sacrifice his sonne Isaac. 11. He is stayed from the act by an Angel. 16. Former promises are renewed to him. 20. And his brother Nachor hath also much issue.*
+
+<sup>1</sup> WHICH things being done, God[^1] tempted Abraham, and said to him: Abraham, Abraham. But he answered: Here I am. <sup>2</sup> He said to him: Take thy only begotten sonne, whom thou louest, Isaac, and goe into the Land of vision: and there thou shalt offer him for an holocaust vpon one of the mountaines which I wil shew thee. <sup>3</sup> Therfore Abraham rising vp in the night, sadled his asse: taking with him two young men, and Isaac his sonne: and when he had cut wood for the holocaust, he went his way to the place which God had commanded him. <sup>4</sup> And the third <sup>5</sup> day, lifting vp his eyes, he sawe the place afarre of: and he said to his young men: Tarie you here with the asse: I and the boy going with speede as farre as yonder, after we <sup>6</sup> haue adored, wil returne to you. He tooke also the wood of the holocaust, and laid it vpon Isaac his sonne: and him selfe caried in his hands fire and a sword. And as they went <sup>7</sup> on together, Isaac said to his father: My father. And he answered: What wilt thou sonne? Behold, saith he, fire <sup>8</sup> and wood: where is the victime of the holocaust? And Abraham said: God wil prouide vnto himselfe the victime of the holocaust, my sonne. They went on therefore toge- <sup>9</sup> ther: and they came to the place which God had shewed him, wherin he builded an altar, and laid the wood in order vpon it: and when he had bound Isaac his sonne, he laid <sup>10</sup> him on the altar vpon the pile of wood. And he stretched forth his hand, and caught the sword, for to sacrifice his <sup>11</sup> sonne. And behold an angel of our Lord from heauen cried, saying: Abraham, Abraham. Who answered: Here I <sup>12</sup> am. And he said to him: Stretch not forth thy hand vpon the boy, neither doe thou any thing to him: now haue I knowen that thou fearest God, and hast not spared thine <sup>13</sup> onlie begotten sonne for my sake. Abraham lifted vp his eyes, and saw behind his backe a ramme amongst the briers sticking
+
+[^1]: Iudith 8. Heb. 11.
+
+<aside>The third prophecie in the office before Masse on Easter eue. And the first on whitsuneeue.</aside>
+
+<aside>This historie is clere, and a most notorious example of perfect obedience.</aside>

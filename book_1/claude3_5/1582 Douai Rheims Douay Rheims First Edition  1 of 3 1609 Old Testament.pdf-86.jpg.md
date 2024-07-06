@@ -1,0 +1,25 @@
+---
+path: "E:\Documents\drb\book_1\jpg\1582 Douai Rheims Douay Rheims First Edition  1 of 3 1609 Old Testament.pdf-86.jpg"
+input_tokens: 2407
+output_tokens: 953
+elapsed_time_s: 20.11
+approx_cost_usd: 0.022
+manual_edit: false
+---
+<aside>To whom the punishment pertained when circumcision was omitted.</aside>
+
+are here threatened for transgression of this precept. Touching the first doubt, it seemeth probable, that this punishment pertained only to those, by whose negligence themselves, or others of their charge, were not circumcised: for that the reason why such a one is punished is alleged, *Because he hath broken my covenant*. Which is only in their power to keep or break, that are of discretion, and not in the power of infants. The indifferent stile of the Hebrew and Greek text favoreth this sense, for where according to the Latin we read, *The male whose flesh of prepuce is not circumcised*, The Hebrew and Greek may be translated, *The male that doth not circumcise the flesh of his prepuce*, which can not be meant of an infant of eight days old. This exposition is likewise confirmed by example, Exod.4. where Moyses was in danger to be slaine by an Angel, because his sonne was not circumcised. Nevertheless S. Augustin (li.3. c.18. cont. Iulian. li.16. c.27. ciuit. and in other places) proveth that this commination pertained also to infants: whose iudgement is confirmed by the 70. Interpreters adding for explication these wordes, *the eight day*, which necessarily includeth infants, as subject to this punishment, not for that they could transgresse this precept, or commit a new sinne, but for lack of circumcision. The reason whereof is, for that God now determined this only remedie for original sinne, in the male sex of Abrahams seede, in place of sacrifice, or other profession of faith vsed before, and that in case it could conveniently be applied for otherwise the former remedies were stil available.
+
+<aside>What punishment was threatned.</aside>
+
+Concerning the other difficultie what ancient fathers expound these wordes, *shal be destroyd out of his people*, of only temporal punishment: either death, as the like phrase signifieth, Exod.12. *Whosoever shal eate leavened bread, his soul shal perish out of Israel*; or temporal separation from the people of God, as Num. 19. *Everie one that toucheth the dead corps, shal perish out of Israel*. But S. Augustin (li. 3. c.18. cont. Iulian li. 5. hypog. & alibi) S. Gregorie (li. 4. Moral. c. 2. & 3.) S. Prosper (li. de promiss. Dei p. 1. c. 14.) S. Beda (li. 2. in Lucam. c. 8 ) and S. Bernard (ser. 3. de circum) vnderstand this threatning not only of temporal punishment, but also of eternal separation from God, and the societie of Saints. And that also infants are so excluded only for lack of this remedie, as now children which dye without Baptisme, committing no new fault are deprived of the vision of God, for their original sinne not remitted. Wherupon is gathered that albeit Circumcision was principally instituted to distinguish the people of God, which should come of Abrahams seede, from other nations, yet it was also for remission of original sinne: not in al, but in those to whom God appointed this particular remedie.
+
+---
+
+CHAP. XVIII.
+
+*Angels intertained as ghests, by Abraham 10. tel when Sara shal beare a sonne, wherat she laughing, they confirme that they had said. 16. They also fortel the destruction of Sodom. 22. for which Abraham prayed six times.*
+
+<sup>1</sup>AND God appeared to him in the vale of mambre as he sat in the dore of his tent, in the verie heat of the day.
+
+<sup>2</sup>And when he had lifted vp his eyes, there appeared to him three men standing nere vnto him: whom after he had sene, he re-

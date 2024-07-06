@@ -1,0 +1,28 @@
+---
+path: "E:\Documents\drb\book_1\jpg\1582 Douai Rheims Douay Rheims First Edition  1 of 3 1609 Old Testament.pdf-176.jpg"
+input_tokens: 2409
+output_tokens: 903
+elapsed_time_s: 17.35
+approx_cost_usd: 0.021
+manual_edit: false
+---
+the children of Israel, and deriding afflicted them: <sup>14</sup> and they brought their life into bitterness with the hard workes of clay, and bricke, and with al seruice, wherewith they were pressed in the workes of the earth. <sup>15</sup> And the King of Ægypt said to the midwiues of the Hebrewes: of whom one was called Sephora, the other Phua, <sup>16</sup> commanding them: When you shal be midwiues to the Hebrew wemen, and the time of deliuerie is come: if it be a manchild, kil it: if a woman, reserue her. <sup>17</sup> But the midwiues feared God, and did not according to the commandement of the king of Ægypt, but preserued the menchildren. <sup>18</sup> To whom being called vnto him, the King said: What is this that you ment to do, that you would saue the men-children? <sup>19</sup> Who answered: The *Hebrew wemen are not as the Ægyptian wemen: for they haue the knowledge to play the midwife them selues, and before we come to them, they are deliuered. <sup>20</sup> God therefore did wel to the midwiues: and the people encreased, and became strong exceedingly. <sup>21</sup> And *because the midwiues feared God, he built them houses <sup>22</sup> Pharao therefore command-d al his people, saying: Whatsoeuer shal be borne of the male sex, cast it into the riuer: whatsoeuer of the female, reserue it.
+
+<aside>:: The second was secrete murder.</aside>
+
+<aside>:: The third was open murder.</aside>
+
+---
+
+ANNOTATIONS.
+CHAP. I.
+
+[^1] 17. *But the midwiues feared God.*] In commendation of the midwiues not obeying the kings commandment, Moyses opposeth the feare of God, to the feare of Princes, shewing therby that when their commandments are contra-rie, the subiects must feare God, and not do that the Prince commandeth. So did our Sauiour himself teach, and that for feare of damnation, saying: *Feare him who can destroy both soule and bodie*. And so his Apostles induced with the Holie Ghost, practised, answering in this case, that they must heare God rather then men. Againe, *God must be obeyed rather then men*. As S. Peter and S. Paul teach vs, that Princes, yea Infidels, of whom they especially speake, must be obeyed.
+
+[^2] 19. *Hebrew wemen are not*, &c.] Herein the midwiues sinned. For it is neuer lawful to lye. Because *the law of God is truth*, wherby S. Augustin proueth (li. cont. mend. c. 10) that whatsoeuer varieth from truth is vnlawful. When therfore (saith he) examples of lying are proposed to vs out of holie Scrip-ture, either they are not lies, but are thought to be, whiles they are not vnder-stood, or if they be lies, they are not to be imitated, because they are vnlawful. S. Gregorie teacheth the same (li. 18. Moral. c. 26.) *Quia præfixit ab origine*
+
+<aside>God must be feared before Princes com-manding con-trarie things.</aside>
+
+<aside>Princes must be obeyed in lawful things.</aside>
+
+<aside>Allies are sin-nes and vn-lawful.</aside>

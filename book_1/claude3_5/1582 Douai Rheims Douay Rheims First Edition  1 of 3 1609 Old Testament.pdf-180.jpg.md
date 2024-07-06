@@ -1,0 +1,19 @@
+---
+path: "E:\Documents\drb\book_1\jpg\1582 Douai Rheims Douay Rheims First Edition  1 of 3 1609 Old Testament.pdf-180.jpg"
+input_tokens: 2409
+output_tokens: 928
+elapsed_time_s: 14.31
+approx_cost_usd: 0.021
+manual_edit: false
+---
+EXODVS.
+
+see, he called him out of the middes of the bush, and said: Moyses, Moyses. Who answered: Here I am. <sup>5</sup> But he said: Approch not hither, loose of thy shoe from thy feete: for the place, wherin thou standest, is holie ground. <sup>6</sup> And he said: I am the God of thy father, the God of Abraham, the God of Isaac, and the God of Iacob. Moyses hid his face: for he durst not looke against God. <sup>7</sup> To whom our Lord said: I haue sene the affliction of my people in Ægypt, and I haue heard their crye because of their rigour that ouersee the workes: <sup>8</sup> and knowing their sorow, I am descended to deliuer them out of the handes of the Ægyptians, and to bring them out of that land into a land good, and large, into a land that floweth with milke and honie, to the places of the Chananeite, and Hetheite, and Amorrheite, and Pherezeite, and Heueite, and Iebusite. <sup>9</sup> Therfore the crye of the children of Israel is come vnto me: and I haue sene their affliction, wherewith they are oppressed by the Ægyptians. <sup>10</sup> But come, and I wil send thee to Pharao, that thou mayest bring forth my people, the children of Israel out of Ægypt. <sup>11</sup> And moyses said to God: Who am I that I shal goe to Pharao, and bring forth the children of Israel out of Ægypt? <sup>12</sup> Who said to him: I wil be with thee: and this thou shalt haue for a signe, that I haue sent thee: When thou shalt haue brought my people out of Ægypt, thou shalt sacrifice to God vpon this mountaine. <sup>13</sup> Moyses said to God: Loe I shal goe to the children of Israel, and say to them: The God of your fathers hath sent me to you. If they shal say to me: What is his name? What shal I say to them? <sup>14</sup> God said to Moyses: I AM WHICH AM. He said: Thus shalt thou say to the children of Israel: HE WHICH IS, hath sent me to you. <sup>15</sup> And God said againe to Moyses: These thinges shalt thou say to the children of Israel: The Lord God of your fathers, the God of Abraham, the God of Isaac, and the God of Iacob hath sent me to you: this is my name for euer, and this is my memorial in generation and to generation. <sup>16</sup> Goe, and geather together the ancients of Israel, and thou shalt say to them: The Lord God of your fathers hath appeared to me, the God of Abraham, the God of Isaac, and the God of Iacob, saying: Visiting I haue visited you: and I haue sene al thinges that haue chanced to you in Ægypt: <sup>17</sup> and I haue said the word to bring you
+
+<aside>See what maner of reuerence and deuotion is prescribed, to goe bare foote to holie places.</aside>
+
+<aside>Of holie places, and of christian deuotion in going to them. S. Hierom writeth largely. epist. 17. 18. & 27.</aside>
+
+<aside>This is the most proper name, but the most common is IEHOVAH, deriued in manie languages of Gent. Mat. 19. v. 17.</aside>
+
+[^1]: Exod. 19.
