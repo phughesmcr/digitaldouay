@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "denoland.vscode-deno",
+    "yzhang.markdown-all-in-one",
+    "bierner.markdown-footnotes",
+    "bierner.markdown-preview-github-styles",
+    "davidanson.vscode-markdownlint",
+    "tomoki1207.pdf"
+  ]
+}
