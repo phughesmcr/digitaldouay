@@ -161,8 +161,7 @@ async function main() {
       const markdownBody = cleanReturnedText(completion.content[0].text ?? "");
 
       // write the markdown file
-      const outputPath = `$${jpgPath}.md`;
-      await Deno.writeTextFile(`${outputPath}`, `${yamlHeader}\n${markdownBody}`, { create: true });
+      await Deno.writeTextFile(`${jpgPath}.md`, `${yamlHeader}\n${markdownBody}`, { create: true });
 
       // update this last so we don't take write time into account
       lastTime = performance.now();
