@@ -33,6 +33,8 @@ const cleanReturnedText = (text: string): string => text.replace(/```markdown\n/
 
 const getDurationSeconds = (startMs: number, endMs: number): string => ((endMs - startMs) / 1000).toFixed(2);
 
+const escapePath = (path: string): string => path.replaceAll(/\\/g, "\\\\");
+
 const BASE_PROMPT = `You are a highly skilled assistant specializing in reading old manuscripts and Old English fonts. Your task is to accurately read and extract text from an image of a 1500s Douay-Rheims Bible manuscript perfectly. Follow these instructions carefully:
 
 1. Examine the attached image of a manuscript page.
@@ -136,7 +138,7 @@ async function main() {
 
       // construct the markdown result
       const yamlHeader = createYAMLHeader({
-        "path": `"${jpgPath}"`,
+        "path": `"${escapePath(jpgPath)}"`,
         "input_tokens": inputTokens,
         "output_tokens": outputTokens,
         "elapsed_time_s": elapsedTime,
