@@ -1,0 +1,18 @@
+---
+book: 1
+idx: 38
+path: "book_1/jpg/1582 Douai Rheims Douay Rheims First Edition  1 of 3 1609 Old Testament.pdf-38.jpg"
+input_tokens: 2405
+output_tokens: 1101
+elapsed_time_s: 16.70
+approx_cost_usd: 0.024
+manual_edit: false
+---
+and daughters. <sup>5</sup>And al the time that Adam liued, came to nine hundred and thirtie yeares, and he died. <sup>6</sup>Seth also liued a hundred fiue yeares, and begat Enos. <sup>7</sup>And Seth liued after he begat Enos, eight hundred and seuen yeares, and begat sonnes and daughters. <sup>8</sup>And al the dayes of Seth came to nine hundred & twelue yeares, and he died. <sup>9</sup>And Enos liued nintie yeares, and begat Cainan. <sup>10</sup>After whose birth he liued eight hundred & fiftene yeares, and begat sonnes and daughters. <sup>11</sup>And al the dayes of Enos came to nine hundred and fiue yeares, and he died. <sup>12</sup>Cainan also liued seuentie yeares, & begat Malaleel. <sup>13</sup>And Cainan liued after he begat Malaleel, eight hundred & fourtie yeares, and begat sonnes & daughters. <sup>14</sup>And al the dayes of Cainan came to nine hundred and ten yeares, and he died. <sup>15</sup>And Malaleel liued sixtie fiue yeares, and begat Iared. <sup>16</sup>And Malaleel liued after he begat Iared, eight hundred and thirtie yeares, and begat sonnes and daughters. <sup>17</sup>And al the dayes of Malaleel came to eight hundred nyntie fiue yeares, & he died. <sup>18</sup>And Iared liued a hundred sixtie two yeares, and begat Enoch. <sup>19</sup>And Iared liued after he begat Enoch eight hundred yeares, and begat sonnes and daughters. <sup>20</sup>And al the dayes of Iared came to nine hundred sixtie two yeares, & he died. <sup>21</sup>Moreouer Enoch liued sixtie fiue yeares, & begat Mathusala. <sup>22</sup>And Enoch[^1] walked with God: & liued after he begat Mathusala three hundred yeares, and begat sonnes and daughters. <sup>23</sup>And al the dayes of Enoch came to three hundred sixtie fiue yeares. <sup>24</sup>And he walked with God, and was seene no more: because God[^2] tooke him. <sup>25</sup>Mathusala also liued a hundred eightie seuen yeares, & begat Lamech. <sup>26</sup>And Mathusala liued, after he begat Lamech, seuen hundred eightie two yeares, and begat sonnes and daughters. <sup>27</sup>And al the dayes of Mathusala came to[^3] nyne hundred sixtie nine yeares, & he died. <sup>28</sup>And Lamech liued a hundred eightie two yeares, and begat a sonne: <sup>29</sup>and he called his name Noe, saying: This sonne shal comfort vs from the workes & labours of our handes on the earth, which our Lord cursed. <sup>30</sup>And Lamech liued, after he begat Noe, fiue hundred nintie fiue yeares, and begat sonnes and daughters. <sup>31</sup>And al the dayes of Lamech came to seuen hundred seuentie seuen yeares, and he died. And[^4] Noe when he was fiue hundred yeares olde, begat Sem, Cham, and Iaphet.
+
+[^1]: This Hebrew phrase *walked with God*, signifieth that he liued wel & pleased God.
+[^2]: The seuentie Interpreters say, God translated him and S. Paul Heb. 11.
+[^3]: That is the longest life of al here recited But if we consider that Adam was as strong of bodie, the first day he was created, as these others were at the age of 60. yeares (before which, none are said to haue begot children) and so substract 60. yeares from Mathusalem, then Adam liued in mans state longer then he by 11. yeares.
+[^4]: The second prophecie before Moise on Easter Eue.
+
+<aside>Seth</aside>

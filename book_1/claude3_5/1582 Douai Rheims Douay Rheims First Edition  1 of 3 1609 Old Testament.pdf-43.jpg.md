@@ -1,0 +1,21 @@
+---
+book: 1
+idx: 43
+path: "book_1/jpg/1582 Douai Rheims Douay Rheims First Edition  1 of 3 1609 Old Testament.pdf-43.jpg"
+input_tokens: 2405
+output_tokens: 1172
+elapsed_time_s: 25.53
+approx_cost_usd: 0.025
+manual_edit: false
+---
+# GENESIS
+
+<aside>The principal doctors prove that they were men, and begotten of men</aside>
+
+But S. Ciril of Alexandria (li. 9. aduer. Iulian) S. Chrisostom (homil. 22. in Gen) S. Ambrose (de Noe & arca. c. 4.) S. Augustin (li. 15. c. 23. de ciuit) S. Hierom (Tradit. Hebraic) and other most principal Doctors teach it to be vntrue, yea vnpossible, that these giants should haue bene begotten by anie other creatures than by men. For that Angels and diuels are mere spirits without our natural bodies. And if they had airie bodies (as they haue not) yet they could not haue such generation. For the powre or force to engender belongeth to the vegetatiue soule, whose proper operations are to turne nourishment into the substance of the subiect wherein it is, and to engender new issue or ofspring from the same, as Aristotle teacheth (li. 2. de anima. textu. 24.) And in what bodies soeuer there is vegetatiue soule, it must needes be, that the same was engendred, and must some times decay and die, and so diuels should be mortal. Moreouer if they could haue generation together with mankind, then this issue should be a distinct species both from man and diuel, as a mule differeth both from horse and asse. Againe, if spirits had abused women in assumed bodies, and shape of men, yet they did not take them to wiues: as the Scripture saith they did, who begate these giants. Finally the holie Scripture here expressly calleth the giants men. *These be the mightie ones, famous men.* The modestie of Scripture terming them famous, whom our common phrase would cal infamous being more monstrous in wickednes of minde, than in hugenes of bodie. For they were most insolent, lasciuious, couetous, cruel, and in al kinde of vice most impious.
+
+<aside>Giants most monstrous in bodie and in minde.</aside>
+
+<sup>5</sup> *Al the cogitation bent to euil.*] Luther (in his 11. article condemned by Leo the tenth) would proue by this place, and the like folowing, *Al flesh had corrupted his way vpon earth*, that al workes of men are sinnes. For (saith he) seeing the hartes of al men are bent alwaies to euil, and al humane actions proceede from the hart, it must needes be that the hartes the fountaine being corrupt, the streames also issuing from the same must be corrupted. Againe al flesh hauing corrupted his way vpon earth, there is not any iust man (saith he) nor any man without sinne: and with Protestantes al sinnes are mortal. But Heretikes arguments are like to that the Poets feine of Sisyphus laboring to carie a great stone to the toppe of an high hil, which when he hath brought almost to the height, it stil falleth from him, & tumbleth againe to the bottome. Euen so their arguments that make greatest shew of prouing their opinions, are nothing but vaine trauaile, when they come to be tried by the true sense of holie Scripture. In this place Moyses describeth the enormitie of sinne that floued very far reigned in the world before the floud, for which God sent that destruction. For it was haynous in deede, and that especially in foure respectes. First the malice and wickednes was general, which is signified by those wordes, *al flesh hath corrupted his way vpon earth*. Secondly it was great malice, signified by the words *much, and al the cogitation of their hart is bent to euil*. For they committed al maner of wickednes in sinnes of pride, in al lasciuiousnes of the flesh, in al crueltie of robbing, sacking, & murthering, in al impietie, against God & man. Thirdly, it was of long continuance, and daily iterated. For Cain once fallen into damnable sinne neuer repented, and al his progenie was exceeding wicked and after that Adam and Seth were dead, manie of the faithful fel to the wicked sorte, and became worse and worse *omni tempore, alwaies, or euerie day*. Fourthly they were obstinate and obdurate, not repenting when Noe built the arke, and preached iustice (as S. Peter testifieth)[^1] and therfore God saued him and his familie, *bringing in the deluge vpon the world of the impious*. Al which maketh nothing at al for Luther. For although the malice of man,
+
+[^1]: 2. Pet. 2.

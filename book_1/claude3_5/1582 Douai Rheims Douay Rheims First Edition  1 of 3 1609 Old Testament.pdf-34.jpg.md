@@ -1,0 +1,30 @@
+---
+book: 1
+idx: 34
+path: "book_1/jpg/1582 Douai Rheims Douay Rheims First Edition  1 of 3 1609 Old Testament.pdf-34.jpg"
+input_tokens: 2405
+output_tokens: 935
+elapsed_time_s: 16.03
+approx_cost_usd: 0.021
+manual_edit: false
+---
+GENESIS.
+
+it, it shal not yeld to thee her fruite: a roag and vagabond shalt thou be vpon the earth. <sup>13</sup>And Cain said to our Lord: Myne iniquitie is greater, then that I may deserue pardon. <sup>14</sup>Loe thou dost cast me out this day from the face of the earth, and from thy face shal I be hid, and I shal be a vagabond & fugitiue on the earth: euerie one therfore that findeth me, shal kil me. <sup>15</sup>And our Lord said to him: No, it shal not so be: but whosoeuer shal kil Cain, shalbe punished seauen fould. And our Lord put a marke on Cain, that whosoeuer found him should not kil him.
+
+<sup>16</sup>And Cain went forth from the face of our Lord, and dwelt as a fugitiue on the earth at the east side of Eden. <sup>17</sup>And Cain knewe his wife, who conceiued, and brought forth Enoch: And he built a citie, & called the name therof by the name of his sonne, Enoch. <sup>18</sup>Moreouer Enoch begat Irad, and Irad begat Mauiael, and Mauiael begat Mathusael, and Mathusael begat Lamech. <sup>19</sup>Who tooke two wiues, the name of the one was Ada, and the name of the other Sella. <sup>20</sup>And Ada brought forth Iabel, who was the father of them that dwel in tents, and of heardsmen. <sup>21</sup>And his brothers name was Iubal: he was the father of them that sing on harpe & organes. <sup>22</sup>Sella also brought forth Tubalcain, who was a hammerer & worker in al worke of brasse & iron. And the sister of Tubalcain was Noema. <sup>23</sup>And Lamech said to his wiues Ada and Sella: Heare my voice ye wiues of Lamech, harken to my talke: for I haue slaine a man to the wounding of my selfe, and a stripling to mine owne drie blowe bruising. <sup>24</sup>Seuenfould vengeance shal be taken of Cain: but of Lamech seuentie times seuen fould.
+
+<sup>25</sup>Adam also knewe his wife again: and she brought forth a sonne, and called his name Seth, saying: God hath giuen me other seede for Abel, whom Cain slewe. <sup>26</sup>But to Seth also was borne a sonne, whom he called Enos, this man began to inuocate the name of our Lord.
+
+---
+
+ANNOTATIONS.
+CHAP. IIII
+
+3. *Offered giftes*) Either God him selfe taught Adam, and he his children, or els they knew by instinct of nature, that Sacrifice must be offered to God, to acknowledge therby his supreme dominion ouer man, and mans due subiection
+
+[^1]: By the increase of Adams seede (by the line of Seth and Iacob, besides the lines of Ismael and Esau) in litle more then 400. yeares to aboue a hundred thousand men able to beare armes (Num. 1.) it appeareth that Caines progenie in so manie yeares might suffice to people a citie, yea a whole countrie. S. Aug. l. 15 ciuit. c. 8.
+
+[^2]: This Lamech of Cains issue, is the first that is noted in Scripture, to haue taken two wiues.
+
+<aside>Adam.</aside>
