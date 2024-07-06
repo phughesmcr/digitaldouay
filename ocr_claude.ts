@@ -21,8 +21,6 @@ const OUTPUT_DOLLARS_PER_MILLION_TOKENS = 15.00 as const;
 
 const getCompletedPercent = (i: number, start: number, end: number) => Math.round(((i - start) / ((end + 1) - start)) * 100);
 
-const isOdd = (num: number) => num % 2 === 1;
-
 const loadImageToBase64 = async (path: string): Promise<string> => encodeBase64(await Deno.readFile(path));
 
 const filterArgsForJpg = (args: string[]): string[] => args.filter((arg) => (arg.endsWith(".jpg") || arg.endsWith(".jpeg")));
@@ -31,17 +29,11 @@ const propsToString = (props: Record<string, string | number>): string => Object
 
 const createYAMLHeader = (props: Record<string, string | number>): string => `---\n${propsToString(props)}\n---`;
 
-const replaceEvenMarginRefs = (str: string): string => str.replaceAll("{{REFERENCE_MARGIN}}", "left").replaceAll("{{COMMENT_MARGIN}}", "right");
-
-const replaceOddMarginRefs = (str: string):string => str.replaceAll("{{REFERENCE_MARGIN}}", "right").replaceAll("{{COMMENT_MARGIN}}", "left");
-
 const cleanReturnedText = (text: string): string => text.replace(/```markdown\n/g, "").replace(/```/g, "").trim();
 
 const getDurationSeconds = (startMs: number, endMs: number): string => ((endMs - startMs) / 1000).toFixed(2);
 
-const getPageNumberFromFilename = (filename: string): number => parseInt(filename.split("-")[1].split(".")[0], 10);
-
-const BASE_PROMPT = `You are a highly skilled assistant specializing in reading old manuscripts and Old English fonts. Your task is to accurately read and extract text from an image of a 1500s Douay-Rheims Bible manuscript. Follow these instructions carefully:
+const BASE_PROMPT = `You are a highly skilled assistant specializing in reading old manuscripts and Old English fonts. Your task is to accurately read and extract text from an image of a 1500s Douay-Rheims Bible manuscript perfectly. Follow these instructions carefully:
 
 1. Examine the attached image of a manuscript page.
 
@@ -60,9 +52,9 @@ const BASE_PROMPT = `You are a highly skilled assistant specializing in reading 
 
 4. Handle margin content as follows:
   - There might be verse numbers in a margin, since this is a bible manuscript. Include those in the main body of text as instructed.
-  - On the {{COMMENT_MARGIN}} margin: Convert text into HTML "aside" tags
-  - On the {{REFERENCE_MARGIN}} margin: Convert text (inc. cross-references to bible verses and other sources) into markdown footnotes (e.g., "[^1]")
-  - Often the margin text and body text are very close together. Try extra hard to make sure they are correctly separated.
+  - The outer margin contains comments: Convert text into HTML "aside" tags
+  - The inner margin contains cross-references (inc. to bible verses and other sources) : Convert text into markdown footnotes (e.g., "[^1]")
+  - Often the margin text and body text are very close together. Try extra hard to make sure they are correctly separated
   - Do not repeat references or footnotes
   - Read every piece of text in the margins to the best of your ability
   - Match the position of each footnote to its indicated (or closest relevant) place in the main body of text
@@ -86,20 +78,16 @@ const BASE_PROMPT = `You are a highly skilled assistant specializing in reading 
 
 Begin your response with the extracted text in the specified format. Do not include any explanations or comments about your process.`;
 
-// position of the margins changes based on odd/even page numbers
-const ODD_PROMPT = replaceOddMarginRefs(BASE_PROMPT);
-const EVEN_PROMPT = replaceEvenMarginRefs(BASE_PROMPT);
-
 const calculatePrice = (inputTokens: number, outputTokens: number): string => {
   const inputPrice = (inputTokens / 1e6) * INPUT_DOLLARS_PER_MILLION_TOKENS;
   const outputPrice = (outputTokens / 1e6) * OUTPUT_DOLLARS_PER_MILLION_TOKENS;
   return (inputPrice + outputPrice).toFixed(3);
 };
 
-const createChatCompletion = (b64Image: string, prompt: string) => AGENT.messages.create({
+const createChatCompletion = (b64Image: string) => AGENT.messages.create({
     model: MODEL,
     max_tokens: MAX_TOKENS,
-    system: prompt,
+    system: BASE_PROMPT,
     temperature: TEMPERATURE,
     messages: [{
       "role": "user", "content": [
@@ -111,7 +99,7 @@ const createChatCompletion = (b64Image: string, prompt: string) => AGENT.message
             "data": b64Image,
           }
         },
-        { "type": "text", "text": prompt }
+        { "type": "text", "text": BASE_PROMPT }
       ]
     }],
   });
@@ -133,9 +121,7 @@ async function main() {
 
       // prompt the API
       const b64Image = await loadImageToBase64(jpgPath);
-      const pageNumber = getPageNumberFromFilename(jpgPath);
-      const userPrompt = isOdd(pageNumber) ? ODD_PROMPT : EVEN_PROMPT;
-      const completion = await createChatCompletion(b64Image, userPrompt);
+      const completion = await createChatCompletion(b64Image);
 
       // update token counts
       const inputTokens = completion.usage.input_tokens || 0;
