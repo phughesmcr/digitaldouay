@@ -1,4 +1,7 @@
 {
   "nodeModulesDir": false,
-  "lock": false
+  "lock": false,
+  "fmt": {
+    "lineWidth": 120
+  }
 }
