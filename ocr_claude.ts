@@ -14,7 +14,7 @@ import Anthropic from "npm:@anthropic-ai/sdk";
 
 const MODEL = "claude-3-5-sonnet-20240620" as const;
 const MAX_TOKENS = 4096 as const;
-const TEMPERATURE = 0.2 as const;
+const TEMPERATURE = 0.0 as const;
 const INPUT_DOLLARS_PER_MILLION_TOKENS = 3.00 as const;
 const OUTPUT_DOLLARS_PER_MILLION_TOKENS = 15.00 as const;
 
@@ -44,21 +44,21 @@ const loadImageToBase64 = async (path: string): Promise<string> => encodeBase64(
 
 const propsToString = (props: Record<string, string | number>): string => Object.entries(props).map(([key, value]) => `${key}: ${value}`).join("\n");
 
-const BASE_PROMPT = cleanPrompt(`You are a highly skilled assistant specializing in detailed reading of old manuscripts and Old English fonts. Your task is to accurately read and extract text from an image perfectly. Follow these instructions carefully:
+const BASE_PROMPT = cleanPrompt(`You are a highly skilled assistant specializing in transcribing old manuscripts and Old English fonts exactly. Your task is to accurately read and extract text from an image perfectly. Follow these instructions carefully:
 
-1. Examine the attached image of a 1500s Douay-Rheims Bible manuscript page. Look closely at all parts of the page, including margins, and how it is laid out.
+1. Examine the attached image of a Douay-Rheims Bible manuscript page from 1582. Take a close look at how the page is formatted.
 
-2. Carefully read and extract the text verbatim, focusing on accuracy. Follow these guidelines:
+2. Perfectly read and extract the text verbatim. Follow these guidelines:
+  - Read the main body of the text first
   - Remove hyphenation where text is broken by column breaks
   - Normalize drop-capitals
   - Replace characters no longer in use (e.g., "ſ" with "s", "Vv" with "W")
   - Ignore any watermarks or coats of arms
   - Stick to the text on the page verbatim
   - Ignore running headers which simply repeat the chapter or book title
-  - Remember that sometimes the margin and body text are very close together. Be careful. Avoid running main body text into the margin or vice-versa.
 
 3. For the main body of text (central column of the page):
-  - Extract the text into plain markdown format
+  - Extract the text into plain markdown format suitable for a screen-reader
   - Preserve typography such as italics and bold
   - Include verse numbers from the margin in the main body of text replacing them and the relevant "†" symbol in the main text with a HTML "sup" tag
 
