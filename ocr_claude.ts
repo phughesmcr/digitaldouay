@@ -184,7 +184,6 @@ async function main(agent: Anthropic): Promise<void> {
 try {
   console.clear();
   const env = await load();
-  console.log(env);
   const agent = new Anthropic({ apiKey: env["ANTHROPIC_API_KEY"] });
   await main(agent);
   confirm("Press Enter to exit.");
