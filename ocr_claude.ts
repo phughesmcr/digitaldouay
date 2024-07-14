@@ -18,33 +18,9 @@ const TEMPERATURE = 0.0 as const;
 const INPUT_DOLLARS_PER_MILLION_TOKENS = 3.00 as const;
 const OUTPUT_DOLLARS_PER_MILLION_TOKENS = 15.00 as const;
 
-type HeaderProps = {
-  jpgPath: string;
-  inputTokens: number;
-  outputTokens: number;
-  elapsedTime: number;
-  price: number;
-};
+const SYSTEM_PROMPT = `You are a highly skilled assistant specializing in transcribing old manuscripts and Old English fonts exactly. You have perfect vision and pay great attention to detail which makes you an expert. Your task is to accurately read and extract text from an image perfectly.`;
 
-const cleanPrompt = (prompt: string): string => prompt.replaceAll(/^[\s\n+]/g, "").replaceAll(/\n+/g, "\n").trim();
-
-const cleanClaudeResponse = (text: string): string => text.replace(/```markdown\n/g, "").replace(/```/g, "").trim();
-
-const createYAMLHeader = (props: Record<string, string | number>): string => `---\n${propsToString(props)}\n---`;
-
-const escapePath = (path: string): string => path.replaceAll(/\\/g, "\\\\");
-
-const getCompletedPercent = (i: number, start: number, end: number): number => Math.round(((i - start) / ((end + 1) - start)) * 100);
-
-const getDurationSeconds = (startMs: number, endMs: number): number => ((endMs - startMs) / 1000);
-
-const getJpgFiles = (args: string[]): string[] => args.filter((arg) => (arg.endsWith(".jpg") || arg.endsWith(".jpeg")));
-
-const loadImageToBase64 = async (path: string): Promise<string> => encodeBase64(await Deno.readFile(path));
-
-const propsToString = (props: Record<string, string | number>): string => Object.entries(props).map(([key, value]) => `${key}: ${value}`).join("\n");
-
-const BASE_PROMPT = cleanPrompt(`You are a highly skilled assistant specializing in transcribing old manuscripts and Old English fonts exactly. You have perfect vision and pay great attention to detail which makes you an expert. Your task is to accurately read and extract text from an image perfectly. Follow these instructions carefully:
+const USER_PROMPT = `You are a highly skilled assistant specializing in transcribing old manuscripts and Old English fonts exactly. You have perfect vision and pay great attention to detail which makes you an expert. Your task is to accurately read and extract text from an image perfectly. Follow these instructions carefully:
 
 1. Examine the attached image of a Douay-Rheims Bible manuscript page from 1582. Take a close look at how the page is formatted.
 
@@ -87,7 +63,33 @@ const BASE_PROMPT = cleanPrompt(`You are a highly skilled assistant specializing
   - Include all main text, asides, and footnotes in their appropriate positions, keeping the markdown readable
   - Ensure the output is suitable for visually impaired researchers using screen-readers
 
-Begin your response with the extracted text in the specified format. Do not include any explanations or comments about your process.`);
+Begin your response with the extracted text in the specified format. Do not include any explanations or comments about your process.`;
+
+type HeaderProps = {
+  jpgPath: string;
+  inputTokens: number;
+  outputTokens: number;
+  elapsedTime: number;
+  cost: number;
+};
+
+const cleanPrompt = (prompt: string): string => prompt.replaceAll(/^[\s\n+]/g, "").replaceAll(/\n+/g, "\n").trim();
+
+const cleanClaudeResponse = (text: string): string => text.replace(/```markdown\n/g, "").replace(/```/g, "").trim();
+
+const createYAMLHeader = (props: Record<string, string | number>): string => `---\n${propsToString(props)}\n---`;
+
+const escapePath = (path: string): string => path.replaceAll(/\\/g, "\\\\");
+
+const getCompletedPercent = (i: number, start: number, end: number): number => Math.round(((i - start) / ((end + 1) - start)) * 100);
+
+const getDurationSeconds = (startMs: number, endMs: number): number => ((endMs - startMs) / 1000);
+
+const getJpgFiles = (args: string[]): string[] => args.filter((arg) => (arg.endsWith(".jpg") || arg.endsWith(".jpeg")));
+
+const loadImageToBase64 = async (path: string): Promise<string> => encodeBase64(await Deno.readFile(path));
+
+const propsToString = (props: Record<string, string | number>): string => Object.entries(props).map(([key, value]) => `${key}: ${value}`).join("\n");
 
 const calculateCost = (inputTokens: number, outputTokens: number): number => {
   const inputPrice = (inputTokens / 1e6) * INPUT_DOLLARS_PER_MILLION_TOKENS;
@@ -98,7 +100,7 @@ const calculateCost = (inputTokens: number, outputTokens: number): number => {
 const createChatCompletion = (agent: Anthropic, b64Image: string) => agent.messages.create({
     model: MODEL,
     max_tokens: MAX_TOKENS,
-    system: "You are a highly skilled assistant specializing in transcribing old manuscripts and Old English fonts exactly. You have perfect vision and pay great attention to detail which makes you an expert. Your task is to accurately read and extract text from an image perfectly.",
+    system: cleanPrompt(SYSTEM_PROMPT),
     temperature: TEMPERATURE,
     messages: [{
       "role": "user", "content": [
@@ -110,40 +112,35 @@ const createChatCompletion = (agent: Anthropic, b64Image: string) => agent.messa
             "data": b64Image,
           }
         },
-        { "type": "text", "text": BASE_PROMPT }
+        { "type": "text", "text": cleanPrompt(USER_PROMPT) }
       ]
     }],
   });
 
 const createOutput = (props: HeaderProps, text = "") => {
-  const { jpgPath, inputTokens, outputTokens, elapsedTime, price } = props;
+  const { jpgPath, inputTokens, outputTokens, elapsedTime, cost } = props;
   const header = createYAMLHeader({
     "path": `"${escapePath(jpgPath)}"`,
     "input_tokens": inputTokens,
     "output_tokens": outputTokens,
     "elapsed_time_s": elapsedTime,
-    "approx_cost_usd": price,
+    "approx_cost_usd": cost,
     "manual_edit": "false",
   });
   const body = cleanClaudeResponse(text);
   return `${header}\n${body}`;
 }
 
-async function main(agent: Anthropic): Promise<void> {
-  const files = getJpgFiles(Deno.args);
-  if (!files.length) {
-    throw new SyntaxError("Unrecoverable error: No .jpg or .jpeg files provided.\n");
-  }
-
+async function main(agent: Anthropic, paths: string[]): Promise<void> {
   const startTime = performance.now();
   let lastTime = startTime;
   let totalInputTokens = 0;
   let totalOutputTokens = 0;
 
-  for (let i = 0; i < files.length; i++) {
+  for (let i = 0; i < paths.length; i++) {
     try {
-      const jpgPath = files[i];
-      console.log(`[${getCompletedPercent(i, 0, files.length)}%] Processing "${jpgPath}"...`);
+      const jpgPath = paths[i];
+      console.log(`[${getCompletedPercent(i, 0, paths.length)}%] Processing "${jpgPath}"...`);
 
       // prompt the API
       const b64Image = await loadImageToBase64(jpgPath);
@@ -183,9 +180,13 @@ async function main(agent: Anthropic): Promise<void> {
 
 try {
   console.clear();
-  const env = await load();
-  const agent = new Anthropic({ apiKey: env["ANTHROPIC_API_KEY"] });
-  await main(agent);
+  const paths = getJpgFiles(Deno.args);
+  if (!paths.length) {
+    throw new SyntaxError("Unrecoverable error: No .jpg or .jpeg files provided.\n");
+  }
+  const env = await load({ export: true });
+  const agent = new Anthropic({ apiKey: env["ANTHROPIC_API_KEY"] || Deno.env.get("ANTHROPIC_API_KEY") });
+  await main(agent, paths);
   confirm("Press Enter to exit.");
   Deno.exit(0);
 } catch (err) {
