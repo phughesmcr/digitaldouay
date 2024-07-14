@@ -7,3 +7,4 @@ scratch/
 *.png
 *.exe
 *.tmp-*
+book_*/jpg/*.md
