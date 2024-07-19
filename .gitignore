@@ -1,10 +1,12 @@
 .env
 .venv
+build/
+dist/
 node_modules/
 scratch/
 *.7z
-*.pdf
-*.png
 *.exe
+*.jpg
+*.pdf
 *.tmp-*
-book_*/jpg/*.md
+*.spec
