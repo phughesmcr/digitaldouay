@@ -101,8 +101,6 @@ const calculateCost = (inputTokens: number, outputTokens: number): number => {
 
 const createChatCompletion = (agent: Anthropic, b64Image: string) => {
   return agent.messages.create({
-    // @ts-ignore - beta header for extra tokens
-    extra_headers: { "anthropic-beta": "max-tokens-3-5-sonnet-2024-07-15" },
     model: MODEL,
     max_tokens: MAX_TOKENS,
     // system: cleanPrompt(""),
@@ -121,6 +119,8 @@ const createChatCompletion = (agent: Anthropic, b64Image: string) => {
         { "type": "text", "text": cleanPrompt(USER_PROMPT) },
       ],
     }],
+  }, {
+    headers: { "anthropic-beta": "max-tokens-3-5-sonnet-2024-07-15" },
   });
 };
 
@@ -163,7 +163,7 @@ async function main(agent: Anthropic, paths: string[]): Promise<void> {
       // feedback
       const elapsedTime = getDurationSeconds(lastTime, performance.now());
       const cost = calculateCost(inputTokens, outputTokens);
-      console.log(`Done. [${elapsedTime.toFixed(2)}s, ${inputTokens + outputTokens})} tokens, $${cost.toFixed(3)}].\n`);
+      console.log(`Done. [${elapsedTime.toFixed(2)}s, ${inputTokens + outputTokens} tokens, $${cost.toFixed(3)}].\n`);
 
       // create and write the markdown output
       const output = createOutput(
